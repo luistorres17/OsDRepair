@@ -30,8 +30,45 @@ OsDRepair es un sistema de gestión de reparaciones desarrollado con Flutter par
 - Cuenta en el servicio de API (configurar URL en el código)
 - API en proceso de publicacion 
 
+## Estructura del Proyecto
+lib/
+├── controllers/    # Lógica de autenticación y API
+├── screens/        # Interfaces de usuario
+├── main.dart       # Punto de entrada
+└── dashboard.dart  # Pantalla principal
+
+
+
 ## Instalación
 1. Clona el repositorio:
 ```bash
 git clone https://github.com/luistorres17/osdrepair.git
 cd osdrepair
+```
+2. Instala las Dependencias:
+```bash
+flutter pub get
+```
+3.Configura la API (editar en lib/controllers/authlogin.dart):
+```
+final String apiUrl = 'TU_ENDPOINT_API';
+```
+
+```bash
+flutter run
+```
+
+## Contribución
+
+Las contribuciones son bienvenidas. Por favor:
+
+Haz un fork del proyecto
+
+Crea una rama para tu feature (git checkout -b feature/nueva-feature)
+
+Haz commit de tus cambios (git commit -m 'Añadir nueva feature')
+
+Push a la rama (git push origin feature/nueva-feature)
+
+Abre un Pull Request
+
