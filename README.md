@@ -1,16 +1,37 @@
-# program
+# OsDRepair - Sistema de Gestión de Reparaciones
 
-A new Flutter project.
+[![Licencia LGPL3](https://img.shields.io/badge/Licencia-LGPL3-blue.svg)](LICENSE)
 
-## Getting Started
+OsDRepair es un sistema de gestión de reparaciones desarrollado con Flutter para múltiples plataformas. Proporciona herramientas para administrar técnicos, clientes, usuarios y seguimiento de trabajos de reparación.
 
-This project is a starting point for a Flutter application.
+## Características Principales
+- Autenticación de usuarios con JWT
+- Dashboard con métricas de trabajos
+- Gestión CRUD de usuarios
+- Navegación por pestañas
+- Integración con API REST
+- Soporte multi-plataforma (Android, iOS, Web, Windows)
+- Persistencia local con SharedPreferences
+- Diseño responsive y moderno
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías Utilizadas
+- Flutter 3.24.0
+- Dart 3.6.1
+- Paquetes principales:
+  - http: Para comunicación con API
+  - shared_preferences: Almacenamiento local
+  - percent_indicator: Indicadores de progreso
+  - google_fonts: Tipografías personalizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requisitos Previos
+- Flutter SDK >=3.24.0
+- Dart SDK >=3.6.1
+- Android Studio/Xcode (para desarrollo móvil)
+- Cuenta en el servicio de API (configurar URL en el código)
+- API en proceso de publicacion 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalación
+1. Clona el repositorio:
+```bash
+git clone https://github.com/luistorres17/osdrepair.git
+cd osdrepair
