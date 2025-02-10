@@ -53,7 +53,7 @@ flutter pub get
 ```
 final String apiUrl = 'TU_ENDPOINT_API';
 ```
-
+4. Ejecuta la aplicación en la raiz del proyecto:
 ```bash
 flutter run
 ```
